@@ -35,7 +35,7 @@ const HouseList = () => {
                 <tbody>
                     {houses.map(h => 
                         <HouseRow key={h.id} house={h} />
-                    )};
+                    )}
                 </tbody>
             </table>
         </>
